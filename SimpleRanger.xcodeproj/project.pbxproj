@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7872111835457000C350E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872101835457000C350E6 /* Foundation.framework */; };
+		5E7872131835457000C350E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872121835457000C350E6 /* CoreGraphics.framework */; };
+		5E7872151835457000C350E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872141835457000C350E6 /* UIKit.framework */; };
+		5E78721B1835457000C350E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E7872191835457000C350E6 /* InfoPlist.strings */; };
+		5E78721D1835457000C350E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78721C1835457000C350E6 /* main.m */; };
+		5E7872211835457000C350E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7872201835457000C350E6 /* AppDelegate.m */; };
+		5E7872241835457000C350E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7872221835457000C350E6 /* Main.storyboard */; };
+		5E7872271835457000C350E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7872261835457000C350E6 /* ViewController.m */; };
+		5E7872291835457000C350E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7872281835457000C350E6 /* Images.xcassets */; };
+		5E7872301835457000C350E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78722F1835457000C350E6 /* XCTest.framework */; };
+		5E7872311835457000C350E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872101835457000C350E6 /* Foundation.framework */; };
+		5E7872321835457000C350E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872141835457000C350E6 /* UIKit.framework */; };
+		5E78723A1835457000C350E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E7872381835457000C350E6 /* InfoPlist.strings */; };
+		5E78723C1835457000C350E6 /* SimpleRangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78723B1835457000C350E6 /* SimpleRangerTests.m */; };
+		5E7872461835459A00C350E6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7872451835459A00C350E6 /* CoreBluetooth.framework */; };
+		5E787248183545A000C350E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E787247183545A000C350E6 /* CoreLocation.framework */; };
+		5EC9257F183E424200DD8F60 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC9257E183E424200DD8F60 /* Main-iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E7872331835457000C350E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7872051835457000C350E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E78720C1835457000C350E6;
+			remoteInfo = SimpleRanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E78720D1835457000C350E6 /* SimpleRanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7872101835457000C350E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E7872121835457000C350E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E7872141835457000C350E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E7872181835457000C350E6 /* SimpleRanger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRanger-Info.plist"; sourceTree = "<group>"; };
+		5E78721A1835457000C350E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E78721C1835457000C350E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E78721E1835457000C350E6 /* SimpleRanger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRanger-Prefix.pch"; sourceTree = "<group>"; };
+		5E78721F1835457000C350E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E7872201835457000C350E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E7872231835457000C350E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E7872251835457000C350E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E7872261835457000C350E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E7872281835457000C350E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E78722E1835457000C350E6 /* SimpleRangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E78722F1835457000C350E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E7872371835457000C350E6 /* SimpleRangerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRangerTests-Info.plist"; sourceTree = "<group>"; };
+		5E7872391835457000C350E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E78723B1835457000C350E6 /* SimpleRangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRangerTests.m; sourceTree = "<group>"; };
+		5E7872451835459A00C350E6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5E787247183545A000C350E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5EC9257E183E424200DD8F60 /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E78720A1835457000C350E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E787248183545A000C350E6 /* CoreLocation.framework in Frameworks */,
+				5E7872461835459A00C350E6 /* CoreBluetooth.framework in Frameworks */,
+				5E7872131835457000C350E6 /* CoreGraphics.framework in Frameworks */,
+				5E7872151835457000C350E6 /* UIKit.framework in Frameworks */,
+				5E7872111835457000C350E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E78722B1835457000C350E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7872301835457000C350E6 /* XCTest.framework in Frameworks */,
+				5E7872321835457000C350E6 /* UIKit.framework in Frameworks */,
+				5E7872311835457000C350E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7872041835457000C350E6 = {
+			isa = PBXGroup;
+			children = (
+				5E7872161835457000C350E6 /* SimpleRanger */,
+				5E7872351835457000C350E6 /* SimpleRangerTests */,
+				5E78720F1835457000C350E6 /* Frameworks */,
+				5E78720E1835457000C350E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E78720E1835457000C350E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E78720D1835457000C350E6 /* SimpleRanger.app */,
+				5E78722E1835457000C350E6 /* SimpleRangerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E78720F1835457000C350E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E787247183545A000C350E6 /* CoreLocation.framework */,
+				5E7872451835459A00C350E6 /* CoreBluetooth.framework */,
+				5E7872101835457000C350E6 /* Foundation.framework */,
+				5E7872121835457000C350E6 /* CoreGraphics.framework */,
+				5E7872141835457000C350E6 /* UIKit.framework */,
+				5E78722F1835457000C350E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E7872161835457000C350E6 /* SimpleRanger */ = {
+			isa = PBXGroup;
+			children = (
+				5EC9257D183E41AF00DD8F60 /* iPad */,
+				5E78721F1835457000C350E6 /* AppDelegate.h */,
+				5E7872201835457000C350E6 /* AppDelegate.m */,
+				5E7872221835457000C350E6 /* Main.storyboard */,
+				5EC9257E183E424200DD8F60 /* Main-iPad.storyboard */,
+				5E7872251835457000C350E6 /* ViewController.h */,
+				5E7872261835457000C350E6 /* ViewController.m */,
+				5E7872281835457000C350E6 /* Images.xcassets */,
+				5E7872171835457000C350E6 /* Supporting Files */,
+			);
+			path = SimpleRanger;
+			sourceTree = "<group>";
+		};
+		5E7872171835457000C350E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7872181835457000C350E6 /* SimpleRanger-Info.plist */,
+				5E7872191835457000C350E6 /* InfoPlist.strings */,
+				5E78721C1835457000C350E6 /* main.m */,
+				5E78721E1835457000C350E6 /* SimpleRanger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E7872351835457000C350E6 /* SimpleRangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E78723B1835457000C350E6 /* SimpleRangerTests.m */,
+				5E7872361835457000C350E6 /* Supporting Files */,
+			);
+			path = SimpleRangerTests;
+			sourceTree = "<group>";
+		};
+		5E7872361835457000C350E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7872371835457000C350E6 /* SimpleRangerTests-Info.plist */,
+				5E7872381835457000C350E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC9257D183E41AF00DD8F60 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E78720C1835457000C350E6 /* SimpleRanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E78723F1835457000C350E6 /* Build configuration list for PBXNativeTarget "SimpleRanger" */;
+			buildPhases = (
+				5E7872091835457000C350E6 /* Sources */,
+				5E78720A1835457000C350E6 /* Frameworks */,
+				5E78720B1835457000C350E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRanger;
+			productName = SimpleRanger;
+			productReference = 5E78720D1835457000C350E6 /* SimpleRanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E78722D1835457000C350E6 /* SimpleRangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7872421835457000C350E6 /* Build configuration list for PBXNativeTarget "SimpleRangerTests" */;
+			buildPhases = (
+				5E78722A1835457000C350E6 /* Sources */,
+				5E78722B1835457000C350E6 /* Frameworks */,
+				5E78722C1835457000C350E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7872341835457000C350E6 /* PBXTargetDependency */,
+			);
+			name = SimpleRangerTests;
+			productName = SimpleRangerTests;
+			productReference = 5E78722E1835457000C350E6 /* SimpleRangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7872051835457000C350E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Logics Software";
+				TargetAttributes = {
+					5E78722D1835457000C350E6 = {
+						TestTargetID = 5E78720C1835457000C350E6;
+					};
+				};
+			};
+			buildConfigurationList = 5E7872081835457000C350E6 /* Build configuration list for PBXProject "SimpleRanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E7872041835457000C350E6;
+			productRefGroup = 5E78720E1835457000C350E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E78720C1835457000C350E6 /* SimpleRanger */,
+				5E78722D1835457000C350E6 /* SimpleRangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E78720B1835457000C350E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7872291835457000C350E6 /* Images.xcassets in Resources */,
+				5E78721B1835457000C350E6 /* InfoPlist.strings in Resources */,
+				5E7872241835457000C350E6 /* Main.storyboard in Resources */,
+				5EC9257F183E424200DD8F60 /* Main-iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E78722C1835457000C350E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E78723A1835457000C350E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7872091835457000C350E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7872271835457000C350E6 /* ViewController.m in Sources */,
+				5E7872211835457000C350E6 /* AppDelegate.m in Sources */,
+				5E78721D1835457000C350E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E78722A1835457000C350E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E78723C1835457000C350E6 /* SimpleRangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E7872341835457000C350E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E78720C1835457000C350E6 /* SimpleRanger */;
+			targetProxy = 5E7872331835457000C350E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E7872191835457000C350E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E78721A1835457000C350E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E7872221835457000C350E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7872231835457000C350E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E7872381835457000C350E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7872391835457000C350E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E78723D1835457000C350E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E78723E1835457000C350E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E7872401835457000C350E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRanger/SimpleRanger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRanger/SimpleRanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E7872411835457000C350E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRanger/SimpleRanger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRanger/SimpleRanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E7872431835457000C350E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRanger.app/SimpleRanger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRanger/SimpleRanger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleRangerTests/SimpleRangerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E7872441835457000C350E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRanger.app/SimpleRanger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRanger/SimpleRanger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRangerTests/SimpleRangerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7872081835457000C350E6 /* Build configuration list for PBXProject "SimpleRanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E78723D1835457000C350E6 /* Debug */,
+				5E78723E1835457000C350E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E78723F1835457000C350E6 /* Build configuration list for PBXNativeTarget "SimpleRanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7872401835457000C350E6 /* Debug */,
+				5E7872411835457000C350E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7872421835457000C350E6 /* Build configuration list for PBXNativeTarget "SimpleRangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7872431835457000C350E6 /* Debug */,
+				5E7872441835457000C350E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7872051835457000C350E6 /* Project object */;
+}

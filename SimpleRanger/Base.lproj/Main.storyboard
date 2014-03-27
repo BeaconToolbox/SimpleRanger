@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sgf-pn-o8A"/>
+                        <viewControllerLayoutGuide type="bottom" id="kQY-ZZ-vLH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Io1-Cn-m6R">
+                                <rect key="frame" x="136" y="35" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="monitor:" destination="vXZ-lx-hvc" eventType="valueChanged" id="O87-NK-dc6"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpK-Hu-Exl">
+                                <rect key="frame" x="101" y="263" width="112" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="2KW-aH-N3k">
+                                <rect key="frame" x="20" y="330" width="280" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72" id="mvn-kK-TK1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUG-cs-GAR">
+                                <rect key="frame" x="20" y="417" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Io1-Cn-m6R" firstAttribute="top" secondItem="sgf-pn-o8A" secondAttribute="bottom" constant="15" id="AHC-zs-hHE"/>
+                            <constraint firstItem="RUG-cs-GAR" firstAttribute="leading" secondItem="2KW-aH-N3k" secondAttribute="leading" id="AT6-ko-db7"/>
+                            <constraint firstAttribute="centerY" secondItem="jpK-Hu-Exl" secondAttribute="centerY" id="DWA-QF-ghQ"/>
+                            <constraint firstAttribute="centerX" secondItem="Io1-Cn-m6R" secondAttribute="centerX" constant="-0.5" id="G2E-3F-s0j"/>
+                            <constraint firstAttribute="trailing" secondItem="2KW-aH-N3k" secondAttribute="trailing" constant="20" symbolic="YES" id="WpM-ei-adC"/>
+                            <constraint firstItem="RUG-cs-GAR" firstAttribute="trailing" secondItem="2KW-aH-N3k" secondAttribute="trailing" id="cWX-LU-4E2"/>
+                            <constraint firstAttribute="centerX" secondItem="jpK-Hu-Exl" secondAttribute="centerX" constant="3" id="pBb-fw-410"/>
+                            <constraint firstAttribute="centerX" secondItem="2KW-aH-N3k" secondAttribute="centerX" id="pkB-Wa-3qc"/>
+                            <constraint firstItem="2KW-aH-N3k" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="qBz-Al-0tN"/>
+                            <constraint firstItem="2KW-aH-N3k" firstAttribute="top" secondItem="jpK-Hu-Exl" secondAttribute="bottom" constant="25" id="qN4-kb-ZPx"/>
+                            <constraint firstItem="RUG-cs-GAR" firstAttribute="top" secondItem="2KW-aH-N3k" secondAttribute="bottom" constant="15" id="uVs-sA-Nmj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accuracyLabel" destination="RUG-cs-GAR" id="054-2b-0T3"/>
+                        <outlet property="switcher" destination="Io1-Cn-m6R" id="nZs-Ku-paB"/>
+                        <outlet property="versionLabel" destination="2KW-aH-N3k" id="6f1-57-XkQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
